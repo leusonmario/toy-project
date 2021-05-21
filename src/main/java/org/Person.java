@@ -33,4 +33,8 @@ public class Person {
     return (Calendar.getInstance().get(Calendar.YEAR) - this.birthYear < 18) ? true : false;
   }
 
+  public Occupation getOccupation(){
+    return this.occupation;
+  }
+
 }
